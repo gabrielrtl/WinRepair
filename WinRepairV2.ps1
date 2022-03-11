@@ -1,7 +1,8 @@
-﻿#Eleva privilegios
+#Eleva privilegios
 $currentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent())
 $testadmin = $currentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)
 if ($testadmin -eq $false) {
+Set-ExecutionPolicy Unrestricted
 Start-Process powershell.exe -Verb RunAs -ArgumentList ('-noprofile -noexit -windowstyle hidden -file "{0}" -elevated' -f ($myinvocation.MyCommand.Definition))
 exit $LASTEXITCODE
 }
