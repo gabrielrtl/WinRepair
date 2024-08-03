@@ -1,8 +1,10 @@
 # WinRepair
 Manutenção e informações sobre o Windows
 
-Download
-https://mega.nz/file/xyFlFBTa#VvifFmGVzLTz8NcRIbNq3Rg2lSuZYM5m_8eXUjRatz4
+Download:
+
+https://mega.nz/file/9j8FBRyb#__aGonRmERv9noVxaq1CMAXovVLiFeCSeVe2a9LDYDA
+
 
 <figure>
 <figcaption>Menu Principal</figcaption>
